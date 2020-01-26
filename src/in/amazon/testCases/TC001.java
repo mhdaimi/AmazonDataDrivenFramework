@@ -49,7 +49,7 @@ public class TC001 {
 	  Filter.byPriceRange(driver, list2.get(2), list2.get(3));
 	  Filter.sortBy(driver, list2.get(4));
 	  SearchResult.selectItem(driver, "2");
-	  
+	  System.out.println("Blah");
   }
   
   @Test(groups= {"regression"})
