@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test name="AmazonSearch">
+  
+  	<!-- <groups>
+  	<run>
+  		<include name="regression"/>
+  	</run>
+    </groups> -->
+  
+    <classes>
+    	<class name="in.amazon.testCases.TC004"/>
+    	<class name="in.amazon.testCases.TC003"/>
+<!--       <class name="in.amazon.testCases.TC002"/>
+      <class name="in.amazon.testCases.TC001"/>
+      <class name="in.amazon.testCases.TC003"/> -->
+    </classes>
+  </test> <!-- AmazonSearch -->
+  
+  
+  
+</suite> <!-- Suite -->

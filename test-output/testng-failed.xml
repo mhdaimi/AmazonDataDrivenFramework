@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="AmazonSearch">
+    <classes>
+      <class name="in.amazon.testCases.TC004"/>
+      <class name="in.amazon.testCases.TC003"/>
+    </classes>
+  </test> <!-- AmazonSearch -->
+  <test parallel="classes" name="AmazonSearch(failed)">
+    <classes>
+      <class name="in.amazon.testCases.TC003">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- in.amazon.testCases.TC003 -->
+      <class name="in.amazon.testCases.TC004">
+        <methods>
+          <include name="b"/>
+        </methods>
+      </class> <!-- in.amazon.testCases.TC004 -->
+    </classes>
+  </test> <!-- AmazonSearch(failed) -->
+</suite> <!-- Failed suite [Suite] -->
