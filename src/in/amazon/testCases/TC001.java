@@ -32,10 +32,10 @@ public class TC001 {
 		sa = new SoftAssert();
 	  }
 	
-	@AfterMethod
+/*	@AfterMethod
 	public void afterMethod() {
 		driver.quit();
-	}
+	}*/
 	
 	
   @Test(groups= {"smoke","regression"})
